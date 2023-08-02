@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "description": "main1",
+      "host": "*",
+      "http_method": "*",
+      "url_path": "/sample-xray/main1",
+      "fixed_target": 5,
+      "rate": 0.01
+    }
+  ],
+  "default": {
+    "fixed_target": 3,
+    "rate": 0.1
+  }
+}
